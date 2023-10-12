@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231012163421">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div id="popup" class="popup popup-content-video" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">X</button>
+					<div class="popup__text">
+						<video class="intro__video-video" controls src="files/test-video.mp4" type="video/mp4">
+							Ваш браузер не підтримує відео тег.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="popup-seach" class="popup popup-search" aria-hidden="true">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">X</button>
+					<div class="popup__text">
+						<form action="">
+							<input class="popap__seach-input" type="text" placeholder="Пошук">
+							<button type="submit" class="popap__search-button"><img src="img/hero/seach.svg" alt="search"></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header class="header">
+			<div class="header__container">
+				<button type="button" class="menu__icon icon-menu"><img src="img/hero/burger.svg" alt=""></button>
+
+				<div class="header__logo">
+					<a href="index.html">
+						<img src="img/logo.svg" alt="logo">
+					</a>
+				</div>
+
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<button class="header__close close__main-menu"><img class="header__close-img close__main-menu-img" src="img/hero/close-icon-menu.svg" alt="close"></button>
+							<li class="menu__item"><a href="" class="menu__link">
+									Продукція
+								</a>
+								<button class="header__dropdown-arrow"><img src="img/hero/ar-down.svg" alt="down-arrow"></button>
+								<ul class="sub-menu">
+									<button class="return-back"><img class="return-back-img" src="img/hero/return-arr.svg" alt="return">
+										<div>Продукція</div>
+									</button>
+									<button class="header__close close__main-menu"><img class="header__close-img close__main-menu-img" src="img/hero/close-icon-menu.svg" alt="close"></button>
+
+									<li class="menu__item"><a href="" class="menu__link">Domekt</a></li>
+									<li class="menu__item  "><a href="" class="menu__link menu__item_sub">Verso</a>
+										<ul class="sub-sub-menu">
+											<button class="return-back"><img class="return-back-img" src="img/hero/return-arr.svg" alt="return">
+												<div>Продукція</div>
+											</button>
+											<button class="header__close close__main-menu"><img class="header__close-img close__main-menu-img" src="img/hero/close-icon-menu.svg" alt="close"></button>
+											<li class="menu__item  "><a href="" class="menu__link">VERSO Standard</a></li>
+											<li class="menu__item  "><a href="" class="menu__link">VERSO Pro</a></li>
+											<li class="menu__item  "><a href="" class="menu__link">Verso Pro2</a>
+												<ul class="sub-sub-sub-menu">
+													<button class="return-back"><img class="return-back-img" src="img/hero/return-arr.svg" alt="return">
+														<div>Продукція</div>
+													</button>
+													<button class="header__close close__main-menu"><img class="header__close-img close__main-menu-img" src="img/hero/close-icon-menu.svg" alt="close"></button>
+													<li class="menu__item"><a href="" class="menu__link">Verso R Pro2</a></li>
+													<li class="menu__item"><a href="" class="menu__link">VERSO CF Pro2</a></li>
+													<li class="menu__item  "><a href="" class="menu__link">Verso S Pro2</a></li>
+													<li class="menu__item"><a href="" class="menu__link">Повітряні фільтри</a></li>
+												</ul>
+											</li>
+											<li class="menu__item  "><a href="" class="menu__link">Повітряні фільтри</a></li>
+										</ul>
+									</li>
+
+									<li class="menu__item"><a href="#" class="menu__link">RHP</a></li>
+									<li class="menu__item"><a href="" class="menu__link">Klasik</a></li>
+								</ul>
+							</li>
+							<li class="menu__item"><a href="" class="menu__link">Про Komfovent</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Документація</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Завантажити ПЗ</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Новини</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Сервіс</a></li>
+							<li class="menu__item"><a href="contacts.html" class="menu__link">Контакти</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="header__search">
+					<div data-popup="#popup-seach">
+						<img src="img/hero/seach.svg" alt="search">
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__contacts contacts">
+				<div class="contacts__container">
+					<div class="contacts__breadcrumps breadcrums">
+						<a href="index.html">Головна</a>
+						<p>Контакти</p>
+					</div>
+					<div class="contacts__title title">Контактна інформація</div>
+
+					<div class="contacts__information">
+						<div class="contacts__date">
+							<div class="contacts__part">
+								<div class="contacts__part-title title">Наша адреса:</div>
+								<div class="contacts__part-content">
+									<img src="img/contacts/adress.svg" alt="social">
+									<a href="">Київ,&nbspбул.&nbspВацлава&nbspГавела&nbsp4,&nbspофіс&nbsp306</a>
+								</div>
+							</div>
+							<div class="contacts__part contacts__part_pnones">
+								<div class="contacts__part-title title">Контактні телефони:</div>
+								<div class="contacts__part-content">
+									<img src="img/contacts/phone.svg" alt="social">
+									<a href="tel:380442002707">+38&nbsp(044)&nbsp200-27-07 <br>
+										(багатоканальний)</a>
+								</div>
+								<div class="contacts__part-content">
+									<img src="img/contacts/phone.svg" alt="social">
+									<a href="tel:380507355362">+38&nbsp(050)&nbsp735-53-62<br>
+										(відділ продажу)</a>
+								</div>
+								<div class="contacts__part-content">
+									<img src="img/contacts/phone.svg" alt="social">
+									<a href="tel:380970262691">+38&nbsp(097)&nbsp026-26-91<br>
+										(відділ продажу)</a>
+								</div>
+								<div class="contacts__part-content">
+									<img src="img/contacts/phone.svg" alt="social">
+									<a href="tel:+380970262691">+38&nbsp(097)&nbsp026-26-91<br>
+										(Viber, Telegram)</a>
+								</div>
+							</div>
+							<div class="contacts__part">
+								<div class="contacts__part-title title">електронна пошта:</div>
+								<div class="contacts__part-content">
+									<img src="img/contacts/mail.svg" alt="social">
+									<a href="mailto:sales@vecon.ua">sales@vecon.ua</a>
+								</div>
+							</div>
+
+						</div>
+						<div class="contacts__map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.6390397009654!2d30.426008726557075!3d50.44782377159168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cd87a7d95cf5%3A0xe69d00229061333d!2z0KHQuNGB0YLQtdC80Lgg0LLQtdC90YLQuNC70Y_RhtGW0ZcgS09NRk9WRU5UICjQlNC40YHRgtGA0LjQsSfRjtGC0L7RgCAtINC-0L_RgtC-0LLQuNC5INC_0YDQvtC00LDQtiDQv9C-INCy0YHRltC5INCj0LrRgNCw0ZfQvdGWKQ!5e0!3m2!1suk!2sua!4v1697093694886!5m2!1suk!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__white">
+					<div class="footer__sections">
+						<div class="footer__title footer__title_sections">Припливно-витяжні установки</div>
+						<div class="footer__name-table">
+							<div class="footer__name-row">
+								<a href="" class="footer__name footer__name_darker-color">Domekt</a>
+								<a href="" class="footer__name">R</a>
+								<a href="" class="footer__name">CF</a>
+								<a href="" class="footer__name">S</a>
+							</div>
+							<div class="footer__name-row">
+								<a href="" class="footer__name footer__name_darker-color">Verso</a>
+								<a href="" class="footer__name">Standart</a>
+								<a href="" class="footer__name">Pro</a>
+								<a href="" class="footer__name">Pro 2</a>
+							</div>
+							<div class="footer__name-row">
+								<a href="" class="footer__name footer__name_darker-color">RHP</a>
+								<a href="" class="footer__name">Standart</a>
+								<a href="" class="footer__name">Pro</a>
+								<a href="" class="footer__name">Pro 2</a>
+							</div>
+							<div class="footer__name-row">
+								<a href="" class="footer__name footer__name_darker-color">Klasik</a>
+								<a href="" class="footer__name">CF</a>
+								<a href="" class="footer__name">R</a>
+								<a href="" class="footer__name">S</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer__contacts">
+						<div class="footer__title">Наші контакти</div>
+						<div class="footer__contact">
+							<img src="img/footer/adress.svg" alt="adrees">
+							<a href="https://maps.app.goo.gl/7RsEXTusZ4tHiX787" class="footer__contact-text">Київ, бул. Вацлава Гавела 4, офіс 306</a>
+						</div>
+						<div class="footer__contact">
+							<img src="img/footer/phone.svg" alt="phone">
+							<a href="tel:+380442002707" class="footer__contact-text">(+38) 044-200-27-07</a>
+						</div>
+						<div class="footer__contact">
+							<img src="img/footer/mail.svg" alt="mail">
+							<a href="mailto:sales@vecon.ua" class="footer__contact-text">sales@vecon.ua</a>
+						</div>
+					</div>
+
+					<div class="footer__about">
+						<div class="footer__title">Про НАС</div>
+						<div class="footer__about-text">ТОРГОВИЙ ДІМ ВЕКОН веде свою діяльність з 2009 року. Сьогодні ми працюємо по всій території України в статусі офіційного дистриб’ютора кліматичного обладнання торговельної марки Komfovent.</div>
+					</div>
+
+					<div class="footer__logo">
+						<a href="index.html"><img src="img/footer/logo.svg" alt="logo"></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__black">
+				<div class="footer__container">
+					<div class="footer__copyright">
+						<img src="img/footer/copiright.svg" alt="copiright">
+						<p class="footer__copyright-text">Всі права захищені. Часткове або повне копіювання інформації сайту можливо тільки з дозволу правовласника.</p>
+					</div>
+					<div class="footer__social">
+						<a href=""><img src="img/footer/linked-in.svg" alt="social"></a>
+						<a href=""><img src="img/footer/facebook.svg" alt="social"></a>
+						<a href=""><img src="img/footer/insta.svg" alt="social"></a>
+						<a href=""><img src="img/footer/you-tube.svg" alt="social"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
+	<script src="js/app.min.js?_v=20231012163421"></script>
+</body>
+
+</html>
